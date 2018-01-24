@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:orientation="vertical"
+    android:paddingTop="12dp"
+    android:paddingBottom="5dp"
+    tools:context=".CrewBio"
+    android:weightSum="1">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:layout_marginBottom="15dp"
+            android:text="(B) Crew Bio-Data :"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+        <TextView
+            android:id="@+id/textView204"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="1. Name / HQ/Safety Cat" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="0">
+
+
+            <EditText
+                android:id="@+id/editTextLname"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Loco Pilot"
+                 />
+
+            <EditText
+                android:id="@+id/editTextAname"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Asstt. Loco Pilot"
+                android:layout_marginBottom="15dp"
+                 />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="2. PME Date" />
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+
+            android:text="Done :" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="0">
+
+
+            <EditText
+                android:id="@+id/editTextLpmn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Loco Pilot"
+                android:cursorVisible="false"
+                android:focusable="false" /> />
+
+            <EditText
+                android:id="@+id/editTextApmn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:cursorVisible="false"
+                android:focusable="false"
+                android:hint="Asstt. Loco Pilot" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="Due :" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="0">
+
+
+            <EditText
+                android:id="@+id/editTextLpmu"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:cursorVisible="false"
+                android:focusable="false"
+                android:hint="Loco Pilot" />
+            />
+
+            <EditText
+                android:id="@+id/editTextApmu"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Asstt. Loco Pilot"
+                android:layout_marginBottom="15dp"
+                android:cursorVisible="false"
+                android:focusable="false" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView53"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="3. Refresher Course Date" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="Done :" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="0">
+
+
+            <EditText
+                android:id="@+id/editTextLrcn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Loco Pilot"
+                android:cursorVisible="false"
+                android:focusable="false" /> />
+
+            <EditText
+                android:id="@+id/editTextArcn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Asstt. Loco Pilot"
+                android:cursorVisible="false"
+                android:focusable="false" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView232"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="Due :" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="0">
+
+
+            <EditText
+                android:id="@+id/editTextLrcu"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Loco Pilot"
+                android:cursorVisible="false"
+                android:focusable="false" /> />
+
+            <EditText
+                android:id="@+id/editTextArcu"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Asstt. Loco Pilot"
+                android:layout_marginBottom="15dp"
+                android:cursorVisible="false"
+                android:focusable="false" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView212"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="4. ABS Competency" />
+
+        <TextView
+            android:id="@+id/textView223"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="Done :" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="0">
+
+
+            <EditText
+                android:id="@+id/editTextLacn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Loco Pilot"
+                android:cursorVisible="false"
+                android:focusable="false" /> />
+
+            <EditText
+                android:id="@+id/editTextAacn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Asstt. Loco Pilot"
+                android:cursorVisible="false"
+                android:focusable="false" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView222"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="Due :" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="0">
+
+
+            <EditText
+                android:id="@+id/editTextLacu"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Loco Pilot"
+                android:cursorVisible="false"
+                android:focusable="false" /> />
+
+            <EditText
+                android:id="@+id/editTextAacu"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Asstt. Loco Pilot"
+                android:cursorVisible="false"
+                android:layout_marginBottom="15dp"
+                android:focusable="false" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView206"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="5. Driving Competency" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="0">
+
+
+            <EditText
+                android:id="@+id/editTextLdc"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Loco Pilot"
+                android:cursorVisible="false"
+                android:focusable="false" /> />
+
+            <EditText
+                android:id="@+id/editTextAdc"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Asstt. Loco Pilot"
+                android:layout_marginBottom="15dp"
+                android:cursorVisible="false"
+                android:focusable="false" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView207"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="6. Nominated LI" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="0">
+
+
+            <EditText
+                android:id="@+id/editTextLnli"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Loco Pilot"
+                 /> />
+
+            <EditText
+                android:id="@+id/editTextAnli"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginBottom="15dp"
+                android:hint="Asstt. Loco Pilot" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView270"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="7. Last monitoring date by NLI" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="0">
+
+
+            <EditText
+                android:id="@+id/editTextLmd"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Loco Pilot"
+                android:cursorVisible="false"
+                android:focusable="false" /> />
+
+            <EditText
+                android:id="@+id/editTextAmd"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Asstt. Loco Pilot"
+                android:layout_marginBottom="15dp"
+                android:cursorVisible="false"
+                android:focusable="false" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView209"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="8. Date of Psycho Test" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="0">
+
+
+            <EditText
+                android:id="@+id/editTextLpt"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Loco Pilot"
+                android:cursorVisible="false"
+                android:focusable="false" /> />
+
+            <EditText
+                android:id="@+id/editTextApt"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Asstt. Loco Pilot"
+                android:layout_marginBottom="15dp"
+                android:cursorVisible="false"
+                android:focusable="false" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="9. Date of Safety Camp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="0">
+
+
+            <EditText
+                android:id="@+id/editTextLds"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:cursorVisible="false"
+                android:focusable="false"
+                android:hint="Loco Pilot" />
+            />
+
+            <EditText
+                android:id="@+id/editTextAds"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:cursorVisible="false"
+                android:focusable="false"
+                android:layout_marginBottom="15dp"
+                android:hint="Asstt. Loco Pilot" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="0">
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="Save1"
+                android:text="Save" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="sendMessage1"
+                android:layout_weight="1"
+                android:text="Next" />
+
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/textViewResult1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center" />
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,995 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:orientation="vertical"
+    android:paddingTop="12dp"
+    android:paddingBottom="5dp"
+    tools:context=".SafetyItems"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView199"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:text="(C) Safety Items :"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+        <TextView
+            android:id="@+id/textView2064"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="1. SPM" />
+
+
+
+
+        <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:weightSum="0">
+
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioSpm"
+                android:orientation="horizontal"
+                android:weightSum="0">
+
+
+        <RadioButton
+            android:id="@+id/radioButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Working"
+            android:layout_weight="1"/>
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Not Working"
+            android:layout_marginBottom="15dp"
+            android:layout_weight="1" />
+
+            </RadioGroup>
+
+
+
+        </LinearLayout>
+
+
+
+        <TextView
+            android:id="@+id/textView2164"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="2. Flasher Light / Auto F/Light" />
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="0">
+
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioflal"
+                android:orientation="horizontal"
+                android:weightSum="0">
+
+
+                <RadioButton
+                    android:id="@+id/radioButtonflal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Working"
+                    android:layout_weight="1"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonnfal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Not Working"
+                    android:layout_marginBottom="15dp"
+                    android:layout_weight="1" />
+
+            </RadioGroup>
+
+
+
+        </LinearLayout>
+
+
+
+        <TextView
+            android:id="@+id/textView21064"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="3. Head Light" />
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="0">
+
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radiolight"
+                android:orientation="horizontal"
+                android:weightSum="0">
+
+
+                <RadioButton
+                    android:id="@+id/radioButtonlight"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Working"
+                    android:layout_weight="1"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonligh1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="15dp"
+                    android:text="Not Working" />
+
+            </RadioGroup>
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView1064"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+
+            android:text="4. Marker lights with red marker" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="0">
+
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radiomarker"
+                android:orientation="horizontal"
+                android:weightSum="0">
+
+
+                <RadioButton
+                    android:id="@+id/radioButtonmarker"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Working"
+                    android:layout_weight="1"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonmarker1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Not Working"
+                    android:layout_marginBottom="15dp"
+                    android:layout_weight="1" />
+
+            </RadioGroup>
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView064"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="5. AFI" />
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="0">
+
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioafi"
+                android:orientation="horizontal"
+                android:weightSum="0">
+
+
+                <RadioButton
+                    android:id="@+id/radioButtonafi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Working"
+                    android:layout_weight="1"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonafi1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Not Working"
+                    android:layout_marginBottom="15dp"
+                    android:layout_weight="1" />
+
+            </RadioGroup>
+
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/textView64"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="6. VCD" />
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="0">
+
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radiovcd"
+                android:orientation="horizontal"
+                android:weightSum="0">
+
+
+                <RadioButton
+                    android:id="@+id/radioButtonvcd"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Working"
+                    android:layout_weight="1"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonvcd1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Not Working"
+                    android:layout_marginBottom="15dp"
+                    android:layout_weight="1" />
+
+            </RadioGroup>
+
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/textView654"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="7. Horn" />
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="0">
+
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radiohorn"
+                android:orientation="horizontal"
+                android:weightSum="0">
+
+
+                <RadioButton
+                    android:id="@+id/radioButtonhorn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Working"
+                    android:layout_weight="1"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonhorn1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Not Working"
+                    android:layout_marginBottom="15dp"
+                    android:layout_weight="1" />
+
+            </RadioGroup>
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView6541"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="8. Spare screw coupling" />
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="0">
+
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radiossc"
+                android:orientation="horizontal"
+                android:weightSum="0">
+
+
+                <RadioButton
+                    android:id="@+id/radioButtonssc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Working"
+                    android:layout_weight="1"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonssc1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Not Working"
+                    android:layout_marginBottom="15dp"
+                    android:layout_weight="1" />
+
+            </RadioGroup>
+
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/textView6354"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="9. Spare hose pipe (BP/FP)" />
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="0">
+
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioshp"
+                android:orientation="horizontal"
+                android:weightSum="0">
+
+
+                <RadioButton
+                    android:id="@+id/radioButtonshp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Working"
+                    android:layout_weight="1"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonshp1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Not Working"
+                    android:layout_marginBottom="15dp"
+                    android:layout_weight="1" />
+
+            </RadioGroup>
+
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/textView54"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="10. Horn" />
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="0">
+
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radiosuc"
+                android:orientation="horizontal"
+                android:weightSum="0">
+
+
+                <RadioButton
+                    android:id="@+id/radioButtonsuc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Working"
+                    android:layout_weight="1"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonsuc1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Not Working"
+                    android:layout_marginBottom="15dp"
+                    android:layout_weight="1" />
+
+            </RadioGroup>
+
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/textView6454"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="11. Fire Extinguishers (Four no.)" />
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="0">
+
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radiofe"
+                android:orientation="horizontal"
+                android:weightSum="0">
+
+
+                <RadioButton
+                    android:id="@+id/radioButtonfe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Working"
+                    android:layout_weight="1"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonfe1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Not Working"
+                    android:layout_marginBottom="15dp"
+                    android:layout_weight="1" />
+
+            </RadioGroup>
+
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/textView6574"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="12. Expiry date - Fire Extinguishers" />
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="0">
+
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioedfe"
+                android:orientation="horizontal"
+                android:weightSum="0">
+
+
+                <RadioButton
+                    android:id="@+id/radioButtonedfe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Working"
+                    android:layout_weight="1"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonedfe1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Not Working"
+                    android:layout_marginBottom="15dp"
+                    android:layout_weight="1" />
+
+            </RadioGroup>
+
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/textView1654"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="13. Hand Brake / parking Brake" />
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="0">
+
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radiohbpb"
+                android:orientation="horizontal"
+                android:weightSum="0">
+
+
+                <RadioButton
+                    android:id="@+id/radioButtonhbpb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Working"
+                    android:layout_weight="1"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonhbpb1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="15dp"
+                    android:text="Not Working" />
+
+            </RadioGroup>
+
+
+
+        </LinearLayout>
+
+
+
+        <TextView
+            android:id="@+id/textView6254"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="14. Wooden wedges (2 in each cab)" />
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="0">
+
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioww"
+                android:orientation="horizontal"
+                android:weightSum="0">
+
+
+                <RadioButton
+                    android:id="@+id/radioButtonww"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Working"
+                    android:layout_weight="1"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonww1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="15dp"
+                    android:text="Not Working" />
+
+            </RadioGroup>
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView254"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="15. Spare fuses" />
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="0">
+
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radiosf"
+                android:orientation="horizontal"
+                android:weightSum="0">
+
+
+                <RadioButton
+                    android:id="@+id/radioButtonsf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Working"
+                    android:layout_weight="1"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonsf1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Not Working"
+                    android:layout_marginBottom="15dp"
+                    android:layout_weight="1" />
+
+            </RadioGroup>
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView154"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="16. Detonators  ( 10 Nos.)" />
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="0">
+
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radiod"
+                android:orientation="horizontal"
+                android:weightSum="0">
+
+
+                <RadioButton
+                    android:id="@+id/radioButtond"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Working"
+                    android:layout_weight="1"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtond1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="15dp"
+                    android:text="Not Working" />
+
+            </RadioGroup>
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView8254"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="17. Detonators – validity" />
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="0">
+
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radiodv"
+                android:orientation="horizontal"
+                android:weightSum="0">
+
+
+                <RadioButton
+                    android:id="@+id/radioButtondv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Working"
+                    android:layout_weight="1"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtondv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Not Working"
+                    android:layout_marginBottom="15dp"
+                    android:layout_weight="1" />
+
+            </RadioGroup>
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView054"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="18. Tri/colour torch" />
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="0">
+
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radiotc"
+                android:orientation="horizontal"
+                android:weightSum="0">
+
+
+                <RadioButton
+                    android:id="@+id/radioButtontc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Working" />
+
+                <RadioButton
+                    android:id="@+id/radioButtontc1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Not Working"
+                    android:layout_marginBottom="15dp"
+                    android:layout_weight="1" />
+
+            </RadioGroup>
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView954"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="19. Red and green flag." />
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="0">
+
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radiorgf"
+                android:orientation="horizontal"
+                android:weightSum="0">
+
+
+                <RadioButton
+                    android:id="@+id/radioButtonrgf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Working"
+                    android:layout_weight="1"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonrgf1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Not Working"
+                    android:layout_marginBottom="15dp"
+                    android:layout_weight="1" />
+
+            </RadioGroup>
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView04"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="20. Spare set of Spectacles (if applicable)" />
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="0">
+
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radiosss"
+                android:orientation="horizontal"
+                android:weightSum="0">
+
+
+                <RadioButton
+                    android:id="@+id/radioButtonsss"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Working"
+                    android:layout_weight="1"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonsss1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Not Working"
+                    android:layout_marginBottom="15dp"
+                    android:layout_weight="1" />
+
+            </RadioGroup>
+
+
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="0">
+
+            <Button
+                android:id="@+id/btnDisplay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="save2"
+                android:text="Save" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="sendMessage2"
+                android:layout_weight="1"
+                android:text="Next" />
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

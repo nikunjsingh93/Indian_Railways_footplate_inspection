@@ -1,0 +1,1369 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:orientation="vertical"
+    android:paddingTop="12dp"
+    android:paddingBottom="5dp"
+    tools:context=".CrewPerformance"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView199"
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:text="(D) Crew Performance :"
+            android:textAppearance="@style/TextAppearance.AppCompat" />
+
+        <TextView
+            android:id="@+id/textView2064"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="1. Whether crew was in sober condition?" />
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="0">
+
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioSober"
+                android:orientation="horizontal"
+                android:weightSum="0">
+
+
+                <RadioButton
+                    android:id="@+id/radioButtonSober"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Yes" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonSober1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No"
+                    android:layout_marginBottom="15dp"
+                    android:layout_weight="1" />
+
+
+            </RadioGroup>
+
+
+
+        </LinearLayout>
+
+
+
+
+
+        <TextView
+            android:id="@+id/textView2164"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="2. Whether the Loco Pilot conducted feel test and checked brake Power at first opportunity?" />
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="0">
+
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioFeel"
+                android:orientation="horizontal"
+                android:weightSum="0">
+
+
+                <RadioButton
+                    android:id="@+id/radioButtonFeel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Yes" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonFeel1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No"
+                    android:layout_marginBottom="15dp"
+                    android:layout_weight="1" />
+
+            </RadioGroup>
+
+
+
+        </LinearLayout>
+
+
+
+        <TextView
+            android:id="@+id/textView21064"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="3. Whether Loco Pilot and Asst. Loco Pilot exchanged all right signal with Guard/Station staff and passing trains?" />
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="0">
+
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioSignal"
+                android:orientation="horizontal"
+                android:weightSum="0">
+
+
+                <RadioButton
+                    android:id="@+id/radioButtonSignal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Yes" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonSignal1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No"
+                    android:layout_marginBottom="15dp"
+                    android:layout_weight="1" />
+
+            </RadioGroup>
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView1064"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="4. Whether Loco Pilot and Asst. Loco Pilot whistled freely at W/WL board, cuttings, curvature and running through station?" />
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="0">
+
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioWhistle"
+                android:orientation="horizontal"
+                android:weightSum="0">
+
+
+                <RadioButton
+                    android:id="@+id/radioButtonWhistle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes"
+                    android:layout_weight="1"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonWhistle1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No"
+                    android:layout_marginBottom="15dp"
+                    android:layout_weight="1" />
+
+            </RadioGroup>
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView064"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="5. Whether Loco Pilot and Asst. Loco Pilot looked back frequently on curves and manned L/C gates?" />
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="0">
+
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioLooked"
+                android:orientation="horizontal"
+                android:weightSum="0">
+
+
+                <RadioButton
+                    android:id="@+id/radioButtonLooked"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes"
+                    android:layout_weight="1"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonLooked1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No"
+                    android:layout_marginBottom="15dp"
+                    android:layout_weight="1" />
+
+            </RadioGroup>
+
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/textView64"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="6. Whether LPs/ALPs are ensuring receipt of proper authority from SMs before starting train during normal/abnormal working of passenger trains." />
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="0">
+
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioReceipt"
+                android:orientation="horizontal"
+                android:weightSum="0">
+
+
+                <RadioButton
+                    android:id="@+id/radioButtonReceipt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes"
+                    android:layout_weight="1"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonReceipt1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No"
+                    android:layout_marginBottom="15dp"
+                    android:layout_weight="1" />
+
+            </RadioGroup>
+
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/textView654"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="7. Whether the Loco pilot observed permanent/temporary caution orders and speed restriction of loop lines and turn outs correctly?" />
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="0">
+
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioCaution"
+                android:orientation="horizontal"
+                android:weightSum="0">
+
+
+                <RadioButton
+                    android:id="@+id/radioButtonCaution"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes"
+                    android:layout_weight="1"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonCaution1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No"
+                    android:layout_marginBottom="15dp"
+                    android:layout_weight="1" />
+
+            </RadioGroup>
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView6541"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="8. Whether the Loco Pilot runs the train with maximum permissible speed where ever possible?" />
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="0">
+
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioSpeed"
+                android:orientation="horizontal"
+                android:weightSum="0">
+
+
+                <RadioButton
+                    android:id="@+id/radioButtonSpeed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes"
+                    android:layout_weight="1"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonSpeed1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No"
+                    android:layout_marginBottom="15dp"
+                    android:layout_weight="1" />
+
+            </RadioGroup>
+
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/textView6354"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="9. Whether the Calling / repeating of signal aspects between Loco Pilot and Asst.Loco Pilot was correct, clear and loud with hand gesture?" />
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="0">
+
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioCalling"
+                android:orientation="horizontal"
+                android:weightSum="0">
+
+
+                <RadioButton
+                    android:id="@+id/radioButtonCalling"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Yes" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonCalling1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No"
+                    android:layout_marginBottom="15dp"
+                    android:layout_weight="1" />
+
+            </RadioGroup>
+
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/textView54"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="10. Whether crew watched safe passage of trains on adjacent line and checking its tail lamp/board and Guard’s hand signal?" />
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="0">
+
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioPassage"
+                android:orientation="horizontal"
+                android:weightSum="0">
+
+
+                <RadioButton
+                    android:id="@+id/radioButtonPassage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes"
+                    android:layout_weight="1"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonPassage1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No"
+                    android:layout_marginBottom="15dp"
+                    android:layout_weight="1" />
+
+            </RadioGroup>
+
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/textView6454"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="11. Whether the Loco Pilot and Asst.Loco Pilot followed the correct procedure of negotiating Neutral Section." />
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="0">
+
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioProcedure"
+                android:orientation="horizontal"
+                android:weightSum="0">
+
+
+                <RadioButton
+                    android:id="@+id/radioButtonProcedure"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes"
+                    android:layout_weight="1"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonProcedure1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No"
+                    android:layout_marginBottom="15dp"
+                    android:layout_weight="1" />
+
+            </RadioGroup>
+
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/textView6574"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="12. Whether the ALP took  round inside  the loco after the neutral section." />
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="0">
+
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioRound"
+                android:orientation="horizontal"
+                android:weightSum="0">
+
+
+                <RadioButton
+                    android:id="@+id/radioButtonRound"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Yes" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonRound1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No"
+                    android:layout_marginBottom="15dp"
+                    android:layout_weight="1" />
+
+            </RadioGroup>
+
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/textView1654"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="13. Whether the Loco Pilot did the coasting wherever possible." />
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="0">
+
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioCoasting"
+                android:orientation="horizontal"
+                android:weightSum="0">
+
+
+                <RadioButton
+                    android:id="@+id/radioButtonCoasting"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes"
+                    android:layout_weight="1"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonCoasting1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="15dp"
+                    android:text="No" />
+
+            </RadioGroup>
+
+
+
+        </LinearLayout>
+
+
+
+        <TextView
+            android:id="@+id/textView6254"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="14. Whether the Loco Pilot and Asst.Loco Pilot filled up the loco log book correctly?" />
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="0">
+
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioLog"
+                android:orientation="horizontal"
+                android:weightSum="0">
+
+
+                <RadioButton
+                    android:id="@+id/radioButtonLog"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes"
+                    android:layout_weight="1"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonLog1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No"
+                    android:layout_marginBottom="15dp"
+                    android:layout_weight="1" />
+
+            </RadioGroup>
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView254"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="15. Observation on Loco Pilot’s braking technique and train , controlling//Technique of Progression-regression." />
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="0">
+
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioBraking"
+                android:orientation="horizontal"
+                android:weightSum="0">
+
+
+                <RadioButton
+                    android:id="@+id/radioButtonBraking"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Satisfactory"
+                    android:layout_weight="1.2"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonBraking1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Unsatisfactory"
+                    android:layout_marginBottom="15dp"
+                    android:layout_weight="1" />
+
+            </RadioGroup>
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView154"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="16. Adequate Rest availed by crew before signing on." />
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="0">
+
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioRest"
+                android:orientation="horizontal"
+                android:weightSum="0">
+
+
+                <RadioButton
+                    android:id="@+id/radioButtonRest"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes"
+                    android:layout_weight="1"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonRest1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No"
+                    android:layout_marginBottom="15dp"
+                    android:layout_weight="1" />
+
+            </RadioGroup>
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView8254"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="17. Whether the crew was in uniform." />
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="0">
+
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioUniform"
+                android:orientation="horizontal"
+                android:weightSum="0">
+
+
+                <RadioButton
+                    android:id="@+id/radioButtonUniform"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes"
+                    android:layout_weight="1"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonUniform1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No"
+                    android:layout_marginBottom="15dp"
+                    android:layout_weight="1" />
+
+            </RadioGroup>
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView054"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="18. Whether CUG mobile is switched OFF." />
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="0">
+
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioCug"
+                android:orientation="horizontal"
+                android:weightSum="0">
+
+
+                <RadioButton
+                    android:id="@+id/radioButtonCug"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Yes" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonCug1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No"
+                    android:layout_marginBottom="15dp"
+                    android:layout_weight="1" />
+
+            </RadioGroup>
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView954"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="19. Whether communication between LP and Guard with WHF OK or Not." />
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="0">
+
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioCommunication"
+                android:orientation="horizontal"
+                android:weightSum="0">
+
+
+                <RadioButton
+                    android:id="@+id/radioButtonCommunication"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes"
+                    android:layout_weight="1"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonCommunication1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No"
+                    android:layout_marginBottom="15dp"
+                    android:layout_weight="1" />
+
+            </RadioGroup>
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView04"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="20. Is LP ensuring the releasing of load after brake application on run?" />
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="0">
+
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioLoad1"
+                android:orientation="horizontal"
+                android:weightSum="0">
+
+
+                <RadioButton
+                    android:id="@+id/radioButtonLoad1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes"
+                    android:layout_weight="1"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonLoad2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No"
+                    android:layout_marginBottom="15dp"
+                    android:layout_weight="1" />
+
+            </RadioGroup>
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView014"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="21. Whether C/O is clear readable or any correction deficiency if any" />
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="0">
+
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioReadable"
+                android:orientation="horizontal"
+                android:weightSum="0">
+
+
+                <RadioButton
+                    android:id="@+id/radioButtonReadable"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes"
+                    android:layout_weight="1"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonReadable1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No"
+                    android:layout_marginBottom="15dp"
+                    android:layout_weight="1" />
+
+            </RadioGroup>
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView024"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="22. Is LP stopping  the train at prescribed location/ensuring fouling mark clear?    " />
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="0">
+
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioFouling"
+                android:orientation="horizontal"
+                android:weightSum="0">
+
+
+                <RadioButton
+                    android:id="@+id/radioButtonFouling"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes"
+                    android:layout_weight="1"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonFouling1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No"
+                    android:layout_marginBottom="15dp"
+                    android:layout_weight="1" />
+
+            </RadioGroup>
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView104"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="23. Ensuring stoppage of passenger trains within platform." />
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="0">
+
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioStoppage"
+                android:orientation="horizontal"
+                android:weightSum="0">
+
+
+                <RadioButton
+                    android:id="@+id/radioButtonStoppage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes"
+                    android:layout_weight="1"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonStoppage1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No"
+                    android:layout_marginBottom="15dp"
+                    android:layout_weight="1" />
+
+            </RadioGroup>
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView804"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="24. Whether any unauthorised person on loco." />
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="0">
+
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioUnauthorised"
+                android:orientation="horizontal"
+                android:weightSum="0">
+
+
+                <RadioButton
+                    android:id="@+id/radioButtonUnauthorised"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes"
+                    android:layout_weight="1"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonUnauthorised1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No"
+                    android:layout_marginBottom="15dp"
+                    android:layout_weight="1" />
+
+            </RadioGroup>
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView704"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="25. Habit of recording/ repeating any unusual noticed during run" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="0">
+
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioHabbit"
+                android:orientation="horizontal"
+                android:weightSum="0">
+
+
+                <RadioButton
+                    android:id="@+id/radioButtonHabbit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes"
+                    android:layout_weight="1"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonHabbit1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No"
+                    android:layout_marginBottom="15dp"
+                    android:layout_weight="1" />
+
+            </RadioGroup>
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView034"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="26. Whether ALP get down from Cab to check the under gear and drain out the moisture at halt." />
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="0">
+
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioCab"
+                android:orientation="horizontal"
+                android:weightSum="0">
+
+
+                <RadioButton
+                    android:id="@+id/radioButtonCab"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes"
+                    android:layout_weight="1"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonCab1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No"
+                    android:layout_marginBottom="15dp"
+                    android:layout_weight="1" />
+
+            </RadioGroup>
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView084"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="27. Whether Crew have a habit to record the unusual noticed on run in the defect register kept in lobbies / entered in CMS." />
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="0">
+
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioDefect"
+                android:orientation="horizontal"
+                android:weightSum="0">
+
+
+                <RadioButton
+                    android:id="@+id/radioButtonDefect"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes"
+                    android:layout_weight="1"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonDefect1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No"
+                    android:layout_marginBottom="15dp"
+                    android:layout_weight="1" />
+
+            </RadioGroup>
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView304"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="28. Whether LP are taking Elect Braking/DBR taking on opportunity." />
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="0">
+
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/radioElect"
+                android:orientation="horizontal"
+                android:weightSum="0">
+
+
+                <RadioButton
+                    android:id="@+id/radioButtonElect"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Yes"
+                    android:layout_weight="1"/>
+
+                <RadioButton
+                    android:id="@+id/radioButtonElect1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No"
+                    android:layout_marginBottom="15dp"
+                    android:layout_weight="1" />
+
+            </RadioGroup>
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="0">
+
+            <Button
+                android:id="@+id/btnDisplay1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="save3"
+                android:text="Save" />
+
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="sendMessage3"
+                android:layout_weight="1"
+                android:text="Next" />
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>
