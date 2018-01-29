@@ -1,7 +1,8 @@
-# Indian_Railways_footplate_inspection
+# Indian_Railways Footplate Inspection
 
 Developed Android application to make footplate inspection of railway engineers in a digital format using any Android device. Android Studio was used to develop the front end with Java and XML. MySQL Server was used in the backend to store and retrieve data from the application.
 
+# Some Screenshots:
 
 ![screenshot_20180123-205207](https://user-images.githubusercontent.com/31995471/35313958-2b7acf3c-0091-11e8-98d9-933b33b4fcd1.png)
 
